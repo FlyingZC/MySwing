@@ -1,0 +1,20 @@
+160809
+1.创建JFrame的两种方式
+(1)class A extends JFrame{}
+(2)代码中JFrame jf=new JFrame();
+
+2.获取
+jf.getContentPane();
+或构造方法中 this.getContentPane();
+
+3.布局管理器
+(1)绝对布局Container.setLayout(null);
+(2)边界布局(默认)BorderLayout
+(3)网格布局GridLayout
+
+4.面板
+JPanel面板
+JScrollPane面板:里只能放一个组件.可将多个组件放到JPanel里再放到JScrollPane里.记得布局不能为null
+
+5.事件监听
+(1)键盘事件
